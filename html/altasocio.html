@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<meta charset="utf-8"></meta>
+		<meta name="autor"	content="Jorge Balbuena">
+		<meta name="decription" content="formularios">
+		<meta name="keywords" content="practicas">
+		<link rel="stylesheet" href="../css/css2.css" type="text/css">
+		<script src="../js/js.js" type="text/javascript" ></script>
+
+	</head>
+	<body>
+		<header>
+				<div><a href="../index.html"><img src="../images/logo_cultural.png" width="100"></a>
+				<div id="h12"><h1 >Cultural y Deportiva Leonesa</h1>
+				</div></div>
+		</header>
+	<center>
+		<h2>Formulario para el alta de socio</h2></center>
+			<form action="altasocio.html" method="get" onsubmit="return validarform()" >
+			<center>
+				<p>¡OJO! rellene todos los campos y para volver a Inicio pinchar en el logo</p>
+		<table border="1" id="table1">
+				<tr>
+					<td>
+					
+						<input type="radio" name="abono" id="Preferenciaeste" size="30" maxlength="10">
+						<label for="Preferenciaeste">Preferencia Este</label>
+					</td>
+
+					<td>
+					
+						<input type="radio" name="abono" id="Preferenciaoeste" size="30" maxlength="10">
+						<label for="Preferenciaoeste">Preferencia Oeste</label>
+					</td>
+
+					<td>
+					
+						<input type="radio" name="abono" id="Fondosur" size="30" maxlength="10">
+						<label for="Fondosur">Fondo Sur </label>
+					</td>
+
+					<td>
+					
+						<input type="radio" name="abono" id="Fondonorte" size="30" maxlength="10">
+						<label for="Fondonorte">Fondo Norte</label>
+					</td>
+
+					<td>
+					
+						<input type="radio" name="abono" id="Palco" size="30" maxlength="10">
+						<label for="Palco">Palco</label>
+					</td>
+	
+					<td>
+					
+						<input type="radio" name="abono" id="Tribunaeste" size="30" maxlength="10">
+						<label for="Tribunaeste">Tribuna Este</label>
+					</td>
+
+					<td>
+					
+						<input type="radio" name="abono" id="Tribunaoeste" size="30" maxlength="10">
+						<label for="Tribunaoeste">Tribuna Oeste </label>
+					</td>
+					<td>
+					
+						<input type="radio" name="abono" id="Flexible" size="30" maxlength="10">
+						<label for="Flexible">Flexible</label>
+					</td>
+				</tr>
+		</table>		
+		</center>
+		<center>
+		<table >
+
+			
+			<tr><td>
+
+		<fieldset>
+				<legend><h4 id="tiposocio">Tipo de Socio</h4></legend>
+				<select id="Tipodesocio" >
+					<option></option>
+					<option >Escuelas deportivas</option>
+					<option >Junior</option>
+					<option >Jupiter</option>
+					<option >Adulto</option>
+					<option >Jubilado</option>
+					</datalist>
+				</select>
+				<br>
+ 		</fieldset>
+ 		<fieldset>
+ 						<legend><h4>Nombre y Apellidos:</h4></legend>
+ 						<label for="NombreAP">Nombre y Apellidos:</label>
+					<input type="text" name="NombreAp" id="NombreAp" size="47" maxlength="44" >
+ 		</fieldset>
+		<fieldset>
+			<legend><h4>DNI, Telefono, Correo Electrónico</h4></legend>
+			<label for="tudni">DNI:</label>
+					 <input type="text" name="tudni" id="tudni" size="9" maxlength="9" ><br>	
+			
+			<label for="tutel">Telefono:</label>
+					 <input type="num" name="tutel" id="tutel" size="9" maxlength="9" ><br>	
+
+			<label for="tuemail">Correo Electrónico:</label>
+					 <input type="email" name="tuemail" id="tuemail" size="50" maxlength="47"  ><br>
+	</fieldset>	
+	<br><br>
+				<center>
+				<input type="submit" name="rem" value="¡¡AUPA CULTURAL!!"  id="rem">
+
+				<input type="reset" name="reset" value="Borrar"  id="reset" >
+		
+		</center>
+		
+		<br><br><br><br><br><br><br><br><br>
+		</td>	
+		<td>
+		<center>
+		<img src="../images/precios.jpg" width="700" id="imagen2"></center>
+		</td>
+	</tr>
+	</table>
+	</center>
+		
+
+</form>
+
+<a href="../index.html">volver a inicio</a>
+	</body>
+</html>
